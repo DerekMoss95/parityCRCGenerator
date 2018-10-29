@@ -90,6 +90,11 @@ results5 = initializePresentBits2bytes(listp5)
 results6 = initializePresentBits32bytes(lists1)
 results7 = initializePresentBits32bytes(lists2)
 
+if results1 != results2:
+    print "The crc checksums were different"
+else:
+    print "The crc checsums were the same"
+
 print(results1)
 print(results2)
 print(results3)
