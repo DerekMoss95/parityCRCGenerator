@@ -1,5 +1,5 @@
 from array import array
-import sys, os
+import sys
 
 #8 bit parity test cases
 listp1 = [0,0,1,0,1,1,0,1]
